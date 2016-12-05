@@ -26,10 +26,6 @@ public class BinaryGap {
 
     public int solution(int n) {
         int finalGap = 0;
-        // 0 is 0 with 1 gap 
-        if (n == 0) {
-            return 1;
-        }
         //1 is  0
         if (n == 1) {
             return 0;
